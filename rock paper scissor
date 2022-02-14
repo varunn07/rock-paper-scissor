@@ -1,0 +1,16 @@
+player1=str(input("Player1 please Enter rock,paper or scissor"))
+player2=str(input("player2 please Enter rock,paper or scissor"))
+if player1=="rock" and player2=="scissor":
+    print("congratulations player1")
+elif player1=="scissor" and player2=="rock":
+    print("congratulations player2")
+elif player1=="scissor" and player2=="paper":
+    print("congratulation player1")
+elif player1=="paper" and player2=="scissor":
+    print("congratulations player2")
+elif player1=="paper" and player2=="rock":
+    print("congratulations player1")
+elif player1=="rock" and player2=="paper":
+    print("congratulations player2")
+else:
+    print("Match draw")
